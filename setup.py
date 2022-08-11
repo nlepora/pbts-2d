@@ -20,7 +20,7 @@ setup(
     author="Nathan Lepora",
     author_email="n.lepora@bristol.ac.uk",
     url="https://github.com/nlepora/pbts-2d/",
-    packages=["pbts_2d"],
+    packages=["pose_models_2d","tactile_servoing_2d"],
     install_requires=[base_deps],
     extras_require={
         "optimization": optimization_deps,
